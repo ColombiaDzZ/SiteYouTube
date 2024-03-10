@@ -1,0 +1,282 @@
+@import url(reset.css);
+
+body {
+  background-color: rgb(15, 15, 15);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.video-area {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 952px;
+}
+
+.video-area h2 {
+  color: #fff;
+}
+
+.menu {
+  background-color: rgb(15, 15, 15);
+  border: 1px solid rgb(15, 15, 15);
+  height: 56px;
+  padding: 12px 24px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.menu-content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.search {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.options {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+#video-button img {
+  position: absolute;
+  left: 93%;
+  padding: 1px;
+  width: 25px;
+  height: 25px;
+}
+
+#notifications img {
+  position: absolute;
+  left: 95%;
+  padding: 1px;
+  width: 25px;
+  height: 25px;
+}
+
+#avatar-profile img {
+  position: absolute;
+  left: 97%;
+  padding: 1px;
+  width: 25px;
+  height: 25px;
+}
+
+#search-box input {
+  color: white;
+  width: 480px;
+  height: 40px;
+  padding: 8px;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: #121212;
+  border-color: #121212;
+  margin-top: 10px;
+  margin-left: -280px;
+}
+
+#search-box input:hover {
+  color: white;
+  padding: 8px;
+  border-color: rgb(0, 102, 255);
+}
+
+#search-button img {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+#video {
+  display: flex;
+  flex-flow: column nowrap;
+  font-weight: 600;
+  align-items: flex-start;
+}
+
+#video iframe {
+  width: 1200px;
+  height: 720px;
+  margin-bottom: 16px;
+  border-radius: 20px;
+}
+
+.actions {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 902px;
+  margin-top: 16px;
+}
+
+span {
+  color: #fff;
+}
+
+#channel-icon {
+  display: flex;
+  gap: 12px;
+}
+
+#channel-icon p {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#sub-button button {
+  width: 159px;
+  height: 40px;
+  border-radius: 2px;
+  background: #C00;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: transparent;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+}
+
+#info {
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 0 16px 0;
+}
+
+#info strong {
+  color: #515151;
+}
+
+#description {
+  width: 550px;
+  height: 64px;
+  color: #515151;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.recommended {
+  padding-left: 25px;
+  max-width: 500px;
+  max-height: 100px;
+}
+
+.recommended-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.recommended-content-info iframe {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  padding: 10px;
+  top: -10px;
+  left: 250px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: transparent;
+}
+
+.recommended-content-info p {
+  position: relative;
+  color: #fff;
+  width: 250px;
+  top: -140px;
+  left: 99%;
+}
+
+.button span {
+  border-style: solid;
+  border-radius: 19px;
+  border-color: transparent;
+  padding: 10px;
+  background-color: #1d1d1d;
+}
+
+.list ul li {
+  list-style-type: none;
+  padding: 10px;
+  position: relative;
+  top: 100px;
+  text-decoration: none;
+  background-color: rgb(15, 15, 15);
+}
+
+.list ul li {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list hr {
+  position: relative;
+  top: 100px;
+  left: -875px;
+  width: 190px;
+}
+
+.list ul li:hover {
+  border-style: solid;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: rgba(128, 128, 128, 0.283);
+  width: 135px;
+  padding: 8px;
+}
+
+.icons ul li {
+  list-style-type: none;
+  position: relative;
+  top: 760px;
+  left: -130px;
+  padding: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.icons hr {
+  list-style-type: none;
+  position: relative;
+  top: 760px;
+  left: -170px;
+  width: 190px;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -25px;
+  border-radius: 5px;
+}
